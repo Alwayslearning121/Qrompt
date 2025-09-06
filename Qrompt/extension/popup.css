@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* { box-sizing: border-box; }
+body { 
+  margin: 0; 
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+  background: #1A1A1A;
+  color: #FFFFFF;
+}
+#app { 
+  width: 320px; 
+  padding: 12px; 
+  background: #1A1A1A;
+}
+header { 
+  display: flex; 
+  align-items: center; 
+  gap: 8px; 
+  margin-bottom: 8px; 
+  padding-bottom: 8px;
+  border-bottom: 1px solid #444444;
+}
+.logo { width: 20px; height: 20px; }
+h1 { 
+  font-size: 16px; 
+  margin: 0; 
+  color: #FFFFFF;
+  font-weight: 600;
+}
+label { 
+  display: block; 
+  margin: 8px 0; 
+  font-size: 12px; 
+  color: #AAAAAA; 
+  font-weight: 500;
+}
+select { 
+  width: 100%; 
+  padding: 8px 12px; 
+  background: #333333; 
+  color: #FFFFFF; 
+  border: 1px solid #555555; 
+  border-radius: 6px; 
+  font-family: 'Poppins', sans-serif;
+}
+select:focus {
+  outline: none;
+  border-color: #03A9F4;
+  box-shadow: 0 0 0 2px rgba(3, 169, 244, 0.2);
+}
+textarea { 
+  width: 100%; 
+  min-height: 90px; 
+  padding: 12px; 
+  resize: vertical; 
+  background: #333333; 
+  color: #FFFFFF; 
+  border: 1px solid #555555; 
+  border-radius: 6px; 
+  font-family: 'Poppins', sans-serif;
+}
+textarea:focus {
+  outline: none;
+  border-color: #03A9F4;
+  box-shadow: 0 0 0 2px rgba(3, 169, 244, 0.2);
+}
+textarea::placeholder {
+  color: #666666;
+}
+button { 
+  margin-top: 8px; 
+  width: 100%; 
+  padding: 10px 16px; 
+  background: #03A9F4; 
+  color: #FFFFFF; 
+  border: none; 
+  border-radius: 6px; 
+  cursor: pointer; 
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+button:hover { 
+  background: #0288D1; 
+  transform: translateY(-1px);
+}
+button:disabled {
+  background: #555555;
+  color: #666666;
+  cursor: not-allowed;
+  transform: none;
+}
+pre { 
+  white-space: pre-wrap; 
+  background: #333333; 
+  color: #FFFFFF;
+  padding: 12px; 
+  border-radius: 6px; 
+  margin-top: 8px; 
+  max-height: 160px; 
+  overflow: auto; 
+  border: 1px solid #444444;
+  font-family: 'Poppins', sans-serif;
+}
+footer { 
+  margin-top: 8px; 
+  text-align: right; 
+  padding-top: 8px;
+  border-top: 1px solid #444444;
+}
+footer a { 
+  color: #03A9F4; 
+  text-decoration: none; 
+  font-size: 12px; 
+  font-weight: 500;
+}
+footer a:hover {
+  color: #0288D1;
+}
+
